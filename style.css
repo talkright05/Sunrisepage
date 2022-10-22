@@ -1,0 +1,475 @@
+
+  *{
+
+    text-decoration: none;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+#header{
+    background-image: url("image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    /* width: 100%;  */
+    height: 75vh; 
+    /* margin: 5px; */
+    /* padding: 5px; */
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    line-height: 80px;
+    padding: 0 8px;
+
+}
+.ham-icon{
+    position: absolute;
+    margin: 0rem 1rem;
+    right: 0;
+    display: block;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 40px;
+  
+}
+
+.navbar li{
+    display: inline;
+    margin: 0 6px;
+    line-height: 80px;
+    color: white;
+}
+.nav a{
+    color: white;
+    
+}
+button{
+    border: none;
+    /* background-color: none; */
+}
+
+.btn2{
+    font-weight: bolder;
+    border-bottom: 1px solid yellow;
+}
+
+
+
+#btn{
+    border-radius: 15px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.first-heading{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.select2{
+    display: grid;
+    /* padding: 5px; */
+    
+}
+.arrow{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+ .egg-write{
+    order: 2; 
+
+    background-color: hsl(0, 0%, 100%);
+}
+    
+
+.img-egg{
+    /* width: 100%; */
+    margin-top: 0px;
+}
+
+.stand{
+    display: grid;
+    /* padding: 5px; */
+}
+#tag1{
+    color: hsl(210, 4%, 67%);;
+
+}
+#ptag{
+    color: hsl(210, 4%, 67%);;
+}
+
+.img-cup{
+    
+    margin-top: -10px;
+}
+
+
+
+.section{
+    display: grid;
+    /* padding: 5px; */
+    margin-top: -10px;
+    /* width: 100%; */
+    
+}
+
+
+
+.Graphics{
+    background-image: url("image-graphic-design.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh; 
+    /* width: 100%; */
+}
+
+h3{
+    margin-top: 270px;
+    text-align: center;
+    color: hsl(167, 40%, 24%);
+}
+
+#graph{
+    text-align: center;
+}
+
+.sect4{
+    background-image: url("image-photography.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    /* width: 100%; */
+    
+}
+
+ h4{
+    color: hsl(198, 62%, 26%);
+    margin-top: 280px;
+    text-align: center; 
+    font-size: 18px;  
+}
+
+#photo{
+    text-align: center;
+}
+
+.foot{
+    display: grid;
+    background-color:hsl(168, 33%, 97%) ;
+    
+}
+
+h5{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 25px;
+    color: hsl(210, 4%, 67%);
+}
+.footer{
+    color:hsl(210, 4%, 67%);
+    display: grid;
+    align-items: space-between;
+}
+
+.first{
+    
+    margin: 10px;
+    padding: 10px;
+}
+
+.img-first{
+    border-radius: 75px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+    /* align-content: center; */
+}
+#emilly{
+    text-align: center;
+}
+
+#emm{
+    text-align: center;
+}
+.ladyE{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+}
+
+.second{
+    /* display: grid; */
+    margin: 10px;
+    padding: 10px;
+}
+
+.img-second{
+    border-radius: 75px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+#thomas{
+    text-align: center;
+}
+.sirT{
+    margin-top: 50px;
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+#Sir{
+    text-align: center;
+
+}
+
+.third{
+    margin: 10px;
+    padding: 10px;
+}
+
+.img-third{
+    border-radius: 75px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+#jene{
+  text-align: center;
+}
+.ladyJ{
+    margin-top: 50px;
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+#lady{
+    text-align: center;
+}
+
+#milkbt{
+    width: 30%;
+    height: 60vh;
+}
+#orangejp{
+    width: 30%;
+    height: 60vh;
+}
+#cone{
+    width: 30%;
+    height: 60vh;
+}
+#sugar{
+    width: 30%;
+    height: 60vh;
+}
+
+.all-foot{
+    margin-top: 50px;
+    display: grid;
+    /* padding: 5px; */
+}
+
+ #pic{
+    width: 100%;
+    display: flex;
+    
+}
+
+.sun{
+    background-color: hsl(168, 34%, 41%) ;
+    color:hsl(212, 27%, 19%) ;
+    margin: 0;
+    padding: 0;
+    height: 75vh;
+}
+
+
+.down-logo{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 80px;
+    padding: 0 8px;
+    text-align: center;
+    
+}
+
+.down-nav{
+    margin-top: 50px;
+    padding: 0 8px;
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+.font-icon{
+    display: flex;
+    padding: 0 8px;
+    margin-top: 50px;
+    /* line-height: 80px; */
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+
+
+
+
+@media (max-width:700px) {
+    .navbar ul li{
+        display: none;
+
+    }
+
+    .navbar-toggler{
+           lef
+    }
+
+    .section{
+        margin-top: 20px;
+
+    }
+
+    .stand{
+        margin-top: 20px;
+    }
+
+    .egg-write{
+        padding: 10%;
+    }
+
+    .img-write{
+        padding: 10%;
+    }
+    .img-egg{
+        width: 100%;
+        display: block;
+       margin-left: auto;
+       margin-right: auto; 
+    }
+
+    .img{
+        width: 100%;
+        display: block;
+       margin-left: auto;
+       margin-right: auto; 
+    }
+
+
+
+    .Graphics{
+        width: 100%;
+        display: block;
+       margin-left: auto;
+       margin-right: auto; 
+    }
+
+    .sect4{
+        width: 100%;
+        display: block;
+       margin-left: auto;
+       margin-right: auto; 
+    }
+
+    .ham-icon{
+        
+    }
+
+
+
+
+    
+}
+
+@media (min-width:700px) {
+
+    .ham-icon{
+        display: none;
+       
+    }
+
+    .first-heading{
+      text-align: center;
+    }
+
+    .navbar ul li{
+        display: inline;
+    }
+
+
+    .select2{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .img-egg{
+        width: 100%;
+    }
+
+    .img{
+        width: 100%;
+    }
+
+    .img-write{
+        margin: auto;
+        justify-self: center;
+        background-color: hsl(0, 0%, 100%);
+    }
+    
+
+    .egg-write {
+        order: 0;
+        margin: auto;
+        width: 70%;
+        /* align-self: center; */
+        /* border: 1px solid red; */
+    }
+    
+
+    .stand{
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
+    .section{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    .footer{
+        grid-template-columns: 1fr 1fr 1fr;
+        /* display: grid; */
+        width: 100%;
+    }
+
+    .all-foot{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+
+    
+}
